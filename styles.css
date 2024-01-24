@@ -1,0 +1,177 @@
+:root{
+    --logo-color:#939393;
+    --title-color:#000;
+    --nav-color:#263238;
+    --text-color:#8F95A5;
+    --white-color:#FFF;
+    --main-color:#2A3246;
+
+}
+.logo-header{
+    color: var(--title-color);
+    font-size: 36px;
+}
+.logo-header,.logo-second-part-header,.header-button,.gallery-description,.speaking-description,.gallery-button,.about-description,.pupils-description,.pricing-description,.pricing-span,.contact-description,.email-input,.logo-footer,.logo-footer-span,.footer-description{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration: none;
+}
+.logo-second-part-header{
+    color: var(--logo-color);
+    font-size: 36px;
+}
+ul{
+    list-style-type: none;
+}
+.nav-list,.speaking-button,.subscribe-button{
+    font-family: Poppins;
+    font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+}
+.nav-list{
+    color: var(--nav-color);
+        font-size: 20px;
+}
+.header-button{
+    width: 220px;
+        height: 70px;
+        flex-shrink: 0;
+    border-radius: 5px;
+    background-color: var(--white-color);
+        border: 2px solid var(--nav-color);
+        color: var(--title-color);
+            font-size: 24px;
+}
+.gallery-title,.skills-title,.speaking-title,.about-title,.pupils-title,.pricing-title,.contact-title{
+    font-family: Poppins;
+    font-style: normal;
+        font-weight: 600;
+        line-height: 80px;
+}
+.gallery-title{
+    color: var(--title-color);
+        font-size: 64px;
+        
+}
+.gallery-description{
+    color: var(--text-color);
+        font-size: 24px;
+     
+}
+.gallery-button{
+    width: 438px;
+        height: 118px;
+        flex-shrink: 0;
+        border-radius: 15px;
+            background: var(--nav-color);
+            color: var(--white-color);
+                font-size: 36px;
+}
+.skills-title{
+    color: var(--title-color);
+        font-size: 48px;
+        
+}
+.speaking-title{
+    color: var(--nav-color);
+        font-size: 30px;
+}
+.speaking-description{
+    color: var(--text-color);
+        font-size: 16px;
+}
+.speaking-button{
+    width: 230px;
+        height: 60px;
+        flex-shrink: 0;
+        border-radius: 5px;
+            background: var(--nav-color);
+            color: var(--white-color);
+                font-size: 18px;
+}
+.about-title{
+    color: var(--title-color);
+        font-size: 48px;
+}
+.about-description{
+    width: 635px;
+    color: var(--text-color);
+        font-size: 20px;
+}
+.pupils-title{
+    color: var(--main-color);
+        font-size: 48px;
+        
+}
+.pupils-description{
+    width: 635px;
+    color: var(--text-color);
+        font-size: 20px;
+}
+.pricing-title{
+    color: var(--title-color);
+        font-size: 48px;
+}
+.pricing-description{
+    width: 240px;
+        height: 45px;
+        flex-shrink: 0;
+        border-radius: 5px;
+            background: #EEE;
+    width: 90px;
+    color: var(--nav-color);
+        font-size: 30px;
+
+}
+.pricing-span{
+    width: 240px;
+        height: 45px;
+        flex-shrink: 0;
+        border-radius: 5px;
+            background: #EEE;
+    color: #546269;
+        font-size: 18px;
+}
+.contact-title{
+    color: var(--title-color);
+        font-size: 48px;
+}
+.contact-description{
+    width: 776px;
+    color: #8F95A5;
+        font-size: 20px;
+}
+.email-input{
+    width: 450px;
+        height: 80px;
+        flex-shrink: 0;
+        border-radius: 10px;
+            border: 1px solid var(--text-color);
+            color: var(--text-color);
+                font-size: 16px;
+}
+.subscribe-button{
+    width: 264px;
+        height: 80px;
+        flex-shrink: 0;
+        border-radius: 10px;
+            background: var(--nav-color);
+            color: var(--white-color);
+                font-size: 20px;
+}
+.logo-footer{
+    color: var(--title-color);
+        font-size: 36px;
+}
+.logo-footer-span{
+    color: var(--logo-color);
+        font-size: 36px;
+}
+.footer-description{
+    width: 776px;
+    color: var(--text-color);
+        font-size: 24px;
+}
